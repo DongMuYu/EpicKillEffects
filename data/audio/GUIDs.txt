@@ -1,0 +1,7 @@
+{d44216cf-ef77-4581-bd3a-5b9a9f610a48} bank:/kills
+{2ecc30a3-eaa7-427e-bdd2-4ab113d8cb4c} event:/kills/kill1/create
+{dce67eb0-4481-4469-8763-95a493d8bd6e} event:/kills/kill2/create
+{1aa3a6c9-693c-4a6c-8b61-0cca0296a30f} event:/kills/kill3/create
+{9ec6f8b8-f404-4249-9806-4520dc114dcc} event:/kills/kill4/create
+{b955069a-b5ea-4671-ba91-12067daa3db8} event:/kills/kill5/create
+{c7e78e0e-fe93-40f1-b1bb-9d83798e36b1} event:/kills/kill_test/create

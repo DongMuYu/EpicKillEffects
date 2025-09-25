@@ -1,0 +1,37 @@
+<Entity>
+
+  	<ParticleEmitterComponent 
+		emitted_material_name="spark_a1"
+		gravity.y="0.0"
+		lifetime_min="3"
+		lifetime_max="3"
+		count_min="8"
+		count_max="8"
+		render_on_grid="0"
+		render_back="0"
+		fade_based_on_lifetime="0"
+		area_circle_radius.min="0"
+		area_circle_radius.max="0"
+		cosmetic_force_create="1"
+		airflow_force="0.0"
+		airflow_time="0.0"
+		airflow_scale="0.0"
+		emission_interval_min_frames="1"
+		emission_interval_max_frames="1"
+		emit_cosmetic_particles="1"
+		image_animation_file="data/particles/image_emitters/kill_effect.png"
+		image_animation_raytrace_from_center="0"
+		image_animation_speed="5"
+		image_animation_loop="0"
+		is_emitting="1"
+		create_real_particles="0"
+		collide_with_grid="0" 
+		>
+
+	</ParticleEmitterComponent>
+
+	<LifetimeComponent
+		lifetime="200" >
+	</LifetimeComponent>
+
+</Entity>

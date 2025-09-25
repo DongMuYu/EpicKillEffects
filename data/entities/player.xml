@@ -1,0 +1,30 @@
+<!-- 玩家实体定义文件 -->
+<!-- 定义了玩家角色的基本属性和初始物品 -->
+<Entity 
+  name="DEBUG_NAME:player"
+  tags="mortal,human,hittable,peasant,prey,player_unit,teleportable" >
+  
+  <!-- 引用基础玩家实体文件，包含玩家的基本属性和组件 -->
+  <Base file="data/entities/player_base.xml" include_children="1" /> 
+
+  <!-- 以下是注释掉的初始物品配置，使用固定物品 -->
+  <!--
+  <Entity name="inventory_quick">
+      <Entity><Base file="data/entities/items/starting_wand.xml" /></Entity> 
+      <Entity><Base file="data/entities/items/starting_bomb_wand.xml" /></Entity>
+      <Entity><Base file="data/entities/items/pickup/potion_water.xml" /></Entity>
+  </Entity>
+  -->
+  
+  <!-- 当前使用的初始物品配置，使用随机属性的物品 -->
+  <Entity name="inventory_quick">
+      <Entity><Base file="data/entities/items/starting_wand_rng.xml" /></Entity> 
+      <Entity><Base file="data/entities/items/starting_bomb_wand_rng.xml" /></Entity>
+      <Entity><Base file="data/entities/items/pickup/potion_starting.xml" /></Entity>
+  </Entity>
+  
+  <!-- 玩家的完整物品栏，用于存储更多物品 -->
+  <Entity name="inventory_full"/>
+
+</Entity>
+

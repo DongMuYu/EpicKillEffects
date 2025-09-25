@@ -1,0 +1,70 @@
+<Entity>
+	<!-- 虚实体 - 支持自定义计时器参数 -->
+	<!-- 可以通过VariableStorageComponent设置计时器持续时间 -->
+	<!-- 使用完毕后自动删除 -->
+	
+	<!-- 计时器持续时间 -->
+	<VariableStorageComponent
+		name="timer_duration"
+		value_int="0"
+		>
+	</VariableStorageComponent>
+	
+	<!-- 计时器标识符（用于区分多个计时器） -->
+	<VariableStorageComponent
+		name="timer_id"
+		value_int = "0"
+		>
+	</VariableStorageComponent>
+	
+	<!-- 当前阶段 -->
+	<VariableStorageComponent
+		name="current_stage"
+		value_int="1"
+		value_string="false"
+		>
+	</VariableStorageComponent>
+	
+	<!-- 总阶段数 -->
+	<VariableStorageComponent
+		name="total_stages"
+		value_int="3"
+		>
+	</VariableStorageComponent>
+	
+	<!-- 生命周期管理脚本 -->
+	<LuaComponent
+		script_source_file="data/scripts/timer_dummy.lua"
+		execute_every_n_frame="1"
+		remove_after_executed="0"
+		>
+	</LuaComponent>
+
+	  	<!-- <ParticleEmitterComponent 
+		emitted_material_name="spark_red"
+		gravity.y="0.0"
+		lifetime_min="8"
+		lifetime_max="20"
+		count_min="8"
+		count_max="8"
+		render_on_grid="0"
+		fade_based_on_lifetime="1"
+		area_circle_radius.min="0"
+		area_circle_radius.max="0"
+		cosmetic_force_create="1"
+		airflow_force="0.651"
+		airflow_time="2.01"
+		airflow_scale="0.05"
+		emission_interval_min_frames="1"
+		emission_interval_max_frames="1"
+		emit_cosmetic_particles="1"
+		image_animation_file="data/particles/image_emitters/chest_effect.png"
+		image_animation_raytrace_from_center="0"
+		image_animation_speed="5"
+		image_animation_loop="0"
+		create_real_particles="0"
+		collide_with_grid="0" 
+		is_emitting="1" >
+	</ParticleEmitterComponent> -->
+	
+</Entity>
