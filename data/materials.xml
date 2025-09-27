@@ -88,7 +88,7 @@
   <CellData 
 	name="spark_a1"  
 	ui_name="$mat_spark_1"
-	cell_type="fire" 
+	cell_type="liquid" 
 	wang_color="CC93A3B6"
 	generates_smoke="0"
 	on_fire="0"
@@ -103,7 +103,7 @@
     <CellData 
 	name="spark_b1"  
 	ui_name="$mat_spark_1"
-	cell_type="fire" 
+	cell_type="liquid" 
 	wang_color="CC93A3B6"
 	generates_smoke="0"
 	on_fire="0"
@@ -118,7 +118,7 @@
   <CellData 
 	name="spark_a2"  
 	ui_name="$mat_spark_2"
-	cell_type="fire" 
+	cell_type="liquid" 
 	wang_color="CCFFC107"
 	generates_smoke="0"
 	on_fire="0"
@@ -133,7 +133,7 @@
   <CellData 
 	name="spark_b2"  
 	ui_name="$mat_spark_2"
-	cell_type="fire" 
+	cell_type="liquid" 
 	wang_color="CCFFC107"
 	generates_smoke="0"
 	on_fire="0"
@@ -148,8 +148,8 @@
   <CellData 
 	name="spark_a3"  
 	ui_name="$mat_spark_3"
-	cell_type="fire" 
-	wang_color="CCE53935"
+	cell_type="liquid" 
+	wang_color="CCFF8A00"
 	generates_smoke="0"
 	on_fire="0"
 	requires_oxygen="1"
@@ -163,8 +163,8 @@
   <CellData 
 	name="spark_b3"  
 	ui_name="$mat_spark_3"
-	cell_type="fire" 
-	wang_color="CCE53935"
+	cell_type="liquid" 
+	wang_color="CCFF8A00"
 	generates_smoke="0"
 	on_fire="0"
 	requires_oxygen="1"
@@ -178,8 +178,8 @@
   <CellData 
 	name="spark_a4"  
 	ui_name="$mat_spark_4"
-	cell_type="fire" 
-	wang_color="CCB71C1C"
+	cell_type="liquid" 
+	wang_color="CCE53935"
 	generates_smoke="0"
 	on_fire="0"
 	requires_oxygen="1"
@@ -193,8 +193,8 @@
   <CellData 
 	name="spark_b4"  
 	ui_name="$mat_spark_4"
-	cell_type="fire" 
-	wang_color="CCB71C1C"
+	cell_type="liquid" 
+	wang_color="CCE53935"
 	generates_smoke="0"
 	on_fire="0"
 	requires_oxygen="1"
@@ -208,8 +208,8 @@
   <CellData 
 	name="spark_a5"  
 	ui_name="$mat_spark_5"
-	cell_type="fire" 
-	wang_color="CCFFD700"
+	cell_type="liquid" 
+	wang_color="CC8B0000"
 	generates_smoke="0"
 	on_fire="0"
 	requires_oxygen="1"
@@ -223,8 +223,8 @@
   <CellData 
 	name="spark_b5"  
 	ui_name="$mat_spark_5"
-	cell_type="fire" 
-	wang_color="CCFFD700"
+	cell_type="liquid" 
+	wang_color="CC8B0000"
 	generates_smoke="0"
 	on_fire="0"
 	requires_oxygen="1"
@@ -232,6 +232,87 @@
 	damage_mortals="0"
 	solid_collide_with_self="0" 
 	always_ignites_damagemodel="0"  
+	>
+  </CellData>
+
+  <CellData 
+	name="spark_c1"  
+	ui_name="$mat_spark_1"
+	cell_type="fire" 
+	wang_color="CC93A3B6"
+	generates_smoke="0"
+	on_fire="0"
+	requires_oxygen="1"
+	temperature_of_fire="0"	
+	damage_mortals="0"
+	solid_collide_with_self="0" 
+	always_ignites_damagemodel="0"
+	>
+  </CellData>
+
+  <CellData 
+	name="spark_c2"  
+	ui_name="$mat_spark_2"
+	cell_type="fire" 
+	wang_color="CCFFC107"
+	generates_smoke="0"
+	on_fire="0"
+	requires_oxygen="1"
+	temperature_of_fire="0"	
+	damage_mortals="0"
+	solid_collide_with_self="0" 
+	always_ignites_damagemodel="0"
+	>
+  </CellData>
+
+  <CellData 
+	name="spark_c3"  
+	ui_name="$mat_spark_3"
+	cell_type="fire" 
+	wang_color="CCFF8A00"
+	generates_smoke="0"
+	on_fire="0"
+	requires_oxygen="1"
+	temperature_of_fire="0"	
+	damage_mortals="0"
+	solid_collide_with_self="0" 
+	always_ignites_damagemodel="0"
+	>
+  </CellData>
+
+  <CellData 
+	name="spark_c4"  
+	ui_name="$mat_spark_4"
+	cell_type="fire" 
+	wang_color="CCE53935"
+	generates_smoke="0"
+	on_fire="0"
+	requires_oxygen="1"
+	temperature_of_fire="0"	
+	damage_mortals="0"
+	solid_collide_with_self="0" 
+	always_ignites_damagemodel="0"
+	>
+  </CellData>
+
+  <CellData 
+	name="spark_c5"  
+	ui_name="$mat_spark_5"
+  	tags="[gas],[burnable_fast]"
+	burnable="1"
+	density="2"
+	cell_type="gas"
+	lifetime="450"
+	wang_color="CC8B0000"
+	generates_smoke="0"
+	liquid_gravity="0.5"
+	liquid_sand="0"
+	on_fire="1"
+	requires_oxygen="0"
+	temperature_of_fire="0"	
+	damage_mortals="0"
+	solid_collide_with_self="0" 
+	always_ignites_damagemodel="0"
 	>
   </CellData>
 

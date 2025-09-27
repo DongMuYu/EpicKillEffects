@@ -61,5 +61,7 @@ function OnWorldPostUpdate() -- This is called every time the game has finished 
 	-- if not player_entity then
 	-- 	return
 	-- end
+
+	-- Gui_Update()
 end
 

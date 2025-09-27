@@ -1,0 +1,12 @@
+<Entity>
+	<LuaComponent
+		script_source_file="data/scripts/detection_range_visualizer.lua"
+		execute_every_n_frame="1"
+		>
+	</LuaComponent>
+	<VariableStorageComponent
+		name="particles_created"
+		value_int="0"
+		>
+	</VariableStorageComponent>
+</Entity>

@@ -146,9 +146,6 @@ local function PlayKillEffectsAndSound(streak_count, death_entity_id, player_ent
         value_int = streak_count
     })
     
-    -- 播放音效（在玩家位置播放）
-    GamePlaySound("mods/EpicKillEffects/data/audio/kills.bank", "kills/kill" .. streak_count .. "/create", player_pos_x, player_pos_y)
-    
     -- 调试信息（仅在开发时启用，减少内存占用）
     -- local debug_info = "智能检测完成(RaytraceSurfaces): "
     -- if best_position then

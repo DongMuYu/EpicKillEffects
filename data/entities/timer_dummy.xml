@@ -1,4 +1,4 @@
-<Entity>
+<Entity name="timer_dummy" tags="timer_dummy">
 	<!-- 虚实体 - 支持自定义计时器参数 -->
 	<!-- 可以通过VariableStorageComponent设置计时器持续时间 -->
 	<!-- 使用完毕后自动删除 -->
@@ -28,7 +28,7 @@
 	<!-- 总阶段数 -->
 	<VariableStorageComponent
 		name="total_stages"
-		value_int="3"
+		value_int="122"
 		>
 	</VariableStorageComponent>
 	

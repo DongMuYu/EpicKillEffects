@@ -3,8 +3,8 @@
   	<ParticleEmitterComponent 
 		emitted_material_name="spark_a3"
 		gravity.y="0.0"
-		lifetime_min="3"
-		lifetime_max="3"
+		lifetime_min="0.1"
+		lifetime_max="0.1"
 		count_min="8"
 		count_max="8"
 		render_on_grid="0"
@@ -19,7 +19,7 @@
 		emission_interval_min_frames="1"
 		emission_interval_max_frames="1"
 		emit_cosmetic_particles="1"
-		image_animation_file="data/particles/image_emitters/kill_effect.png"
+		image_animation_file="data/particles/image_emitters/kill_effect2.png"
 		image_animation_raytrace_from_center="0"
 		image_animation_speed="5"
 		image_animation_loop="0"
@@ -29,7 +29,7 @@
 	</ParticleEmitterComponent>
 
 	<LifetimeComponent
-		lifetime="200" >
+		lifetime="100" >
 	</LifetimeComponent>
 
 </Entity>
